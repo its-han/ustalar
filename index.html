@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full HD Iframe with Background</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .interacty_wrapper {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('123.jpeg'); /* Set your background image here */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+            border: none;
+            width: 1920px; /* Full HD width */
+            height: 1080px; /* Full HD height */
+        }
+    </style>
+</head>
+<body>
+    <div class="interacty_wrapper">
+        <iframe src="https://p.interacty.me/e1e1601e5acd9567/iframe.html"></iframe>
+    </div>
+</body>
+</html>
+
